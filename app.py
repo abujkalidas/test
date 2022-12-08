@@ -15,10 +15,6 @@ def index():
 def login():
     return 'Login API'
 
-@app.route('/marks')
-def marks():
-    return 'marks API'
-
 
 if __name__ == '__main__':
     app.run(debug=True)
