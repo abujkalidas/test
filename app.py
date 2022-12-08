@@ -14,10 +14,6 @@ def index():
 def login():
     return 'Login API'
 
-@app.route('/result')
-def result():
-    return 'Result API'
-
 
 if __name__ == '__main__':
     app.run(debug=True)
