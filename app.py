@@ -1,4 +1,5 @@
 # This is a app module
+# Module consist of Flask app
 
 import pandas as pd
 
